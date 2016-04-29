@@ -11,10 +11,6 @@ class Rectangle {
         return this._height;
     }
 
-    get height() {
-        return this._height;
-    }
-
     set height(value) {
         if (typeof value !== 'number') {
             throw new Error('"height" must be a number.');
